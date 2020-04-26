@@ -7,6 +7,8 @@ package javatraining.oletsky.datatypes;
  */
 public class DivideByZero {
     public static void main(String[] args) {
+        //Unlike integers, we can divide
+        //doubles by zero
         System.out.println(5./0); //Positive infinity
         System.out.println(-5./0); //Negative infinity
         System.out.println(0./0); //NaN
