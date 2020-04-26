@@ -8,6 +8,11 @@ public class ArithmeticOperators {
         System.out.println(7/2);  //3
         System.out.println(7./2); //3.5
         System.out.println(7%2);  //1
+        System.out.println(-9%2); //-1
+        System.out.println(-9%-2); //-1
+        double d = 2.5;
+        System.out.println(d%1.5); //1.0
+
 
     }
 }
