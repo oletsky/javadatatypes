@@ -3,10 +3,10 @@ package javatraining.oletsky.datatypes;
 public class PrimitiveTransformations {
     public static void main(String[] args) {
         //Promotions and castings
-        byte b = 5;
+        byte b = 5; //Promption
         short s = b;
         //byte b1 = s; //Impossible
-        byte b2 = (byte) s;
+        byte b2 = (byte) s; //Casting
         //Illegal byte
         //byte b1 = 200; //Impossible
         byte b3 = (byte) 200;
