@@ -10,6 +10,6 @@ public class OverCome {
 
     public static void main(String[] args) {
         long x=10;
-        System.out.println(x++>x);
+        System.out.println(x++>x); //false
     }
 }
