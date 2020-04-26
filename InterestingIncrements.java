@@ -7,10 +7,12 @@ package javatraining.oletsky.datatypes;
 public class InterestingIncrements {
     public static void main(String[] args) {
         int x=5;
-        x+=x++; //10
+        x+=x++;
         System.out.println(x);
         int y=5;
-        System.out.println((y++)-(y++)); //-1
+        System.out.println((y++)-(y++)); 
+        int z=5;
+        System.out.println(z++/z);
 
 
     }
